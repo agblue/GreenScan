@@ -5,61 +5,40 @@
 	};
 	objectVersion = 71;
 	objects = {
-C4CE82A47294581899AE4B73 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/SavedScans/SavedMetalRenderer.swift"; sourceTree = SOURCE_ROOT; };
-ECDBB5B02715319710BDC8C0 = {isa = PBXBuildFile; fileRef = C4CE82A47294581899AE4B73; };
-
-29F9CC9E89776F28AF4B861F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/OrbitCamera.swift"; sourceTree = SOURCE_ROOT; };
-76E6B2506D682B5D4925EEA0 = {isa = PBXBuildFile; fileRef = 29F9CC9E89776F28AF4B861F; };
-AEFA7774EA872E2213330C63 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/SavedScan.swift"; sourceTree = SOURCE_ROOT; };
-6293F2C3FD5BBA1695899B2D = {isa = PBXBuildFile; fileRef = AEFA7774EA872E2213330C63; };
-355F20CF4633D2551D2CAA62 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/ScanArchive.swift"; sourceTree = SOURCE_ROOT; };
-0E7F79A176C18CF2D7DDB01E = {isa = PBXBuildFile; fileRef = 355F20CF4633D2551D2CAA62; };
-7ED85E779C3F04C9C26F8436 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/ScanArchiveError.swift"; sourceTree = SOURCE_ROOT; };
-304A7533DB6A0BC20A71F90A = {isa = PBXBuildFile; fileRef = 7ED85E779C3F04C9C26F8436; };
-D6B91320F5B59E2C9A6494FC = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/ScanHistory.swift"; sourceTree = SOURCE_ROOT; };
-ED6AED0D9922FABD6ED820CE = {isa = PBXBuildFile; fileRef = D6B91320F5B59E2C9A6494FC; };
-C437EFAB8CBF1A0E03586734 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/ScanSummary.swift"; sourceTree = SOURCE_ROOT; };
-7CADD635581D182BC266FA3D = {isa = PBXBuildFile; fileRef = C437EFAB8CBF1A0E03586734; };
-72697448E8223B337D39258F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/SavedScans/SavedModelCanvas.swift"; sourceTree = SOURCE_ROOT; };
-46CA999B309C4996F5F1ADE9 = {isa = PBXBuildFile; fileRef = 72697448E8223B337D39258F; };
-2C0BDEC35B33D215D1454B87 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/SavedScans/SavedScanModel.swift"; sourceTree = SOURCE_ROOT; };
-0F0B4AEF8A2831CC1BEF6691 = {isa = PBXBuildFile; fileRef = 2C0BDEC35B33D215D1454B87; };
-1887906A71915DE6BCF75BD9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/SavedScans/SavedScanView.swift"; sourceTree = SOURCE_ROOT; };
-84977EF43E1B9213959DA380 = {isa = PBXBuildFile; fileRef = 1887906A71915DE6BCF75BD9; };
-FC724302A5D74A2A92D73504 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/SavedScans/ScanHistoryView.swift"; sourceTree = SOURCE_ROOT; };
-12A7363F878AA238833D5EAB = {isa = PBXBuildFile; fileRef = FC724302A5D74A2A92D73504; };
-79679144C5577DCF198EE1AD = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Views/CameraControls.swift"; sourceTree = SOURCE_ROOT; };
-CF1DE68452D56A54E03C7B72 = {isa = PBXBuildFile; fileRef = 79679144C5577DCF198EE1AD; };
-
-CCB0B0E2E5336A88ABC82520 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/GridKey.swift"; sourceTree = SOURCE_ROOT; };
-6F7666C0AC6441266425560D = { isa = PBXBuildFile; fileRef = CCB0B0E2E5336A88ABC82520; };
-2F29213056A6A6B5B777DD71 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/DepthSample.swift"; sourceTree = SOURCE_ROOT; };
-36EEA90C4B3F98824E532D0D = { isa = PBXBuildFile; fileRef = 2F29213056A6A6B5B777DD71; };
-A40AF70A9A9094BAE6CDC4CD = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/TerrainCell.swift"; sourceTree = SOURCE_ROOT; };
-F57E1C8A1B73E0881DD82929 = { isa = PBXBuildFile; fileRef = A40AF70A9A9094BAE6CDC4CD; };
-BC1DD90151C7D52C0238B167 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/TerrainSnapshot.swift"; sourceTree = SOURCE_ROOT; };
-1AD8A914655912FC9C0F6F8E = { isa = PBXBuildFile; fileRef = BC1DD90151C7D52C0238B167; };
-451D589668FC0008CE20D02D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/SurfacePoint.swift"; sourceTree = SOURCE_ROOT; };
-FC16252FE2FA663B091BCB3F = { isa = PBXBuildFile; fileRef = 451D589668FC0008CE20D02D; };
-591A34BEFA485197FA8777BC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/SurfaceSegment.swift"; sourceTree = SOURCE_ROOT; };
-8136DA3273735F3E4C120D06 = { isa = PBXBuildFile; fileRef = 591A34BEFA485197FA8777BC; };
-C07E314009761B3FECDE662D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/DisplayGeometry.swift"; sourceTree = SOURCE_ROOT; };
-00CD1D6D95DBF06358815942 = { isa = PBXBuildFile; fileRef = C07E314009761B3FECDE662D; };
-7900BD042BA1D94BBFBEE2CC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GreenScan/Core/DisplaySettings.swift"; sourceTree = SOURCE_ROOT; };
-313EF658F6D42BBC00786547 = { isa = PBXBuildFile; fileRef = 7900BD042BA1D94BBFBEE2CC; };
 
 /* Begin PBXBuildFile section */
+		00CD1D6D95DBF06358815942 /* GreenScan/Core/DisplayGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07E314009761B3FECDE662D /* GreenScan/Core/DisplayGeometry.swift */; };
 		0DBF334A5F1C36D6722BEEB3 /* GreenScan/Views/DisplayControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CBAC83FD001E2B8F7B67E /* GreenScan/Views/DisplayControls.swift */; };
+		0E7F79A176C18CF2D7DDB01E /* GreenScan/Core/ScanArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F20CF4633D2551D2CAA62 /* GreenScan/Core/ScanArchive.swift */; };
+		0F0B4AEF8A2831CC1BEF6691 /* GreenScan/SavedScans/SavedScanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BDEC35B33D215D1454B87 /* GreenScan/SavedScans/SavedScanModel.swift */; };
+		12A7363F878AA238833D5EAB /* GreenScan/SavedScans/ScanHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724302A5D74A2A92D73504 /* GreenScan/SavedScans/ScanHistoryView.swift */; };
 		15EF7A5217DE5634569F0D75 /* GreenScan/Rendering/SurfaceRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A5A79135608E666588E3F /* GreenScan/Rendering/SurfaceRenderer.swift */; };
+		1AD8A914655912FC9C0F6F8E /* GreenScan/Core/TerrainSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1DD90151C7D52C0238B167 /* GreenScan/Core/TerrainSnapshot.swift */; };
 		284B8EAE7FE4F84191C0F835 /* GreenScan/Views/ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F23983CCDEF0E2DC21A0F24 /* GreenScan/Views/ScanView.swift */; };
+		304A7533DB6A0BC20A71F90A /* GreenScan/Core/ScanArchiveError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED85E779C3F04C9C26F8436 /* GreenScan/Core/ScanArchiveError.swift */; };
+		313EF658F6D42BBC00786547 /* GreenScan/Core/DisplaySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900BD042BA1D94BBFBEE2CC /* GreenScan/Core/DisplaySettings.swift */; };
 		36EC44C5DB854565810FE0C8 /* GreenScan/Views/CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F02C4A4AD60E58DFDAB361D /* GreenScan/Views/CameraView.swift */; };
+		36EEA90C4B3F98824E532D0D /* GreenScan/Core/DepthSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F29213056A6A6B5B777DD71 /* GreenScan/Core/DepthSample.swift */; };
+		46CA999B309C4996F5F1ADE9 /* GreenScan/SavedScans/SavedModelCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72697448E8223B337D39258F /* GreenScan/SavedScans/SavedModelCanvas.swift */; };
 		56E68117F8F50E8B0E1EC972 /* GreenScan/Core/TerrainProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9908AC00763D1BE72F1F64 /* GreenScan/Core/TerrainProcessor.swift */; };
+		6293F2C3FD5BBA1695899B2D /* GreenScan/Core/SavedScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA7774EA872E2213330C63 /* GreenScan/Core/SavedScan.swift */; };
+		6F7666C0AC6441266425560D /* GreenScan/Core/GridKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB0B0E2E5336A88ABC82520 /* GreenScan/Core/GridKey.swift */; };
 		72DD943B745760EF93E2D246 /* GreenScan/Core/TerrainGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8957858FE77B865A3C5A06 /* GreenScan/Core/TerrainGeometry.swift */; };
+		76E6B2506D682B5D4925EEA0 /* GreenScan/Core/OrbitCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F9CC9E89776F28AF4B861F /* GreenScan/Core/OrbitCamera.swift */; };
+		7CADD635581D182BC266FA3D /* GreenScan/Core/ScanSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437EFAB8CBF1A0E03586734 /* GreenScan/Core/ScanSummary.swift */; };
+		8136DA3273735F3E4C120D06 /* GreenScan/Core/SurfaceSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A34BEFA485197FA8777BC /* GreenScan/Core/SurfaceSegment.swift */; };
+		84977EF43E1B9213959DA380 /* GreenScan/SavedScans/SavedScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887906A71915DE6BCF75BD9 /* GreenScan/SavedScans/SavedScanView.swift */; };
 		8A9095FC9EF36A101013B49C /* GreenScan/Core/TerrainMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76CF8BC67FC8EF605A4AF5 /* GreenScan/Core/TerrainMap.swift */; };
 		8F69D2603037B23E80BB9FA3 /* UITests/ScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A6C6AC91737902635B620 /* UITests/ScanUITests.swift */; };
 		90B613AA2D644912A9B79E6C /* GreenScan/Scanning/ScanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF11A2D1473D7CF1517DE7D8 /* GreenScan/Scanning/ScanModel.swift */; };
 		AA154FED995F215C0709B72D /* GreenScan/GreenScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6477BA6DB97BBCC77AE4575D /* GreenScan/GreenScanApp.swift */; };
+		CF1DE68452D56A54E03C7B72 /* GreenScan/Views/CameraControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679144C5577DCF198EE1AD /* GreenScan/Views/CameraControls.swift */; };
 		DC7FEBABDE9D4CF7043ACDF6 /* GreenScan/Scanning/DepthSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C92173CF73AED6C075CD6 /* GreenScan/Scanning/DepthSampler.swift */; };
+		ECDBB5B02715319710BDC8C0 /* GreenScan/SavedScans/SavedMetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE82A47294581899AE4B73 /* GreenScan/SavedScans/SavedMetalRenderer.swift */; };
+		ED6AED0D9922FABD6ED820CE /* GreenScan/Core/ScanHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B91320F5B59E2C9A6494FC /* GreenScan/Core/ScanHistory.swift */; };
+		F5468346305755BA00EB201F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5468345305755BA00EB201F /* Assets.xcassets */; };
+		F57E1C8A1B73E0881DD82929 /* GreenScan/Core/TerrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40AF70A9A9094BAE6CDC4CD /* GreenScan/Core/TerrainCell.swift */; };
+		FC16252FE2FA663B091BCB3F /* GreenScan/Core/SurfacePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451D589668FC0008CE20D02D /* GreenScan/Core/SurfacePoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,18 +53,39 @@ C07E314009761B3FECDE662D = { isa = PBXFileReference; lastKnownFileType = sourcec
 
 /* Begin PBXFileReference section */
 		0F23983CCDEF0E2DC21A0F24 /* GreenScan/Views/ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Views/ScanView.swift; sourceTree = SOURCE_ROOT; };
+		1887906A71915DE6BCF75BD9 /* GreenScan/SavedScans/SavedScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/SavedScans/SavedScanView.swift; sourceTree = SOURCE_ROOT; };
+		29F9CC9E89776F28AF4B861F /* GreenScan/Core/OrbitCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/OrbitCamera.swift; sourceTree = SOURCE_ROOT; };
+		2C0BDEC35B33D215D1454B87 /* GreenScan/SavedScans/SavedScanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/SavedScans/SavedScanModel.swift; sourceTree = SOURCE_ROOT; };
+		2F29213056A6A6B5B777DD71 /* GreenScan/Core/DepthSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/DepthSample.swift; sourceTree = SOURCE_ROOT; };
+		355F20CF4633D2551D2CAA62 /* GreenScan/Core/ScanArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/ScanArchive.swift; sourceTree = SOURCE_ROOT; };
 		38A007151ABE87CC01A5B6E9 /* GreenScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = GreenScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A76CF8BC67FC8EF605A4AF5 /* GreenScan/Core/TerrainMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/TerrainMap.swift; sourceTree = SOURCE_ROOT; };
 		417A5A79135608E666588E3F /* GreenScan/Rendering/SurfaceRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Rendering/SurfaceRenderer.swift; sourceTree = SOURCE_ROOT; };
 		434CBAC83FD001E2B8F7B67E /* GreenScan/Views/DisplayControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Views/DisplayControls.swift; sourceTree = SOURCE_ROOT; };
+		451D589668FC0008CE20D02D /* GreenScan/Core/SurfacePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/SurfacePoint.swift; sourceTree = SOURCE_ROOT; };
+		591A34BEFA485197FA8777BC /* GreenScan/Core/SurfaceSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/SurfaceSegment.swift; sourceTree = SOURCE_ROOT; };
 		5F02C4A4AD60E58DFDAB361D /* GreenScan/Views/CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Views/CameraView.swift; sourceTree = SOURCE_ROOT; };
 		6477BA6DB97BBCC77AE4575D /* GreenScan/GreenScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/GreenScanApp.swift; sourceTree = SOURCE_ROOT; };
+		72697448E8223B337D39258F /* GreenScan/SavedScans/SavedModelCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/SavedScans/SavedModelCanvas.swift; sourceTree = SOURCE_ROOT; };
+		7900BD042BA1D94BBFBEE2CC /* GreenScan/Core/DisplaySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/DisplaySettings.swift; sourceTree = SOURCE_ROOT; };
+		79679144C5577DCF198EE1AD /* GreenScan/Views/CameraControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Views/CameraControls.swift; sourceTree = SOURCE_ROOT; };
+		7ED85E779C3F04C9C26F8436 /* GreenScan/Core/ScanArchiveError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/ScanArchiveError.swift; sourceTree = SOURCE_ROOT; };
 		890A6C6AC91737902635B620 /* UITests/ScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests/ScanUITests.swift; sourceTree = SOURCE_ROOT; };
 		9D3AD977850B7EAC0E4F6585 /* GreenScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GreenScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3C92173CF73AED6C075CD6 /* GreenScan/Scanning/DepthSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Scanning/DepthSampler.swift; sourceTree = SOURCE_ROOT; };
+		A40AF70A9A9094BAE6CDC4CD /* GreenScan/Core/TerrainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/TerrainCell.swift; sourceTree = SOURCE_ROOT; };
+		AEFA7774EA872E2213330C63 /* GreenScan/Core/SavedScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/SavedScan.swift; sourceTree = SOURCE_ROOT; };
 		AF11A2D1473D7CF1517DE7D8 /* GreenScan/Scanning/ScanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Scanning/ScanModel.swift; sourceTree = SOURCE_ROOT; };
+		BC1DD90151C7D52C0238B167 /* GreenScan/Core/TerrainSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/TerrainSnapshot.swift; sourceTree = SOURCE_ROOT; };
 		BE8957858FE77B865A3C5A06 /* GreenScan/Core/TerrainGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/TerrainGeometry.swift; sourceTree = SOURCE_ROOT; };
+		C07E314009761B3FECDE662D /* GreenScan/Core/DisplayGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/DisplayGeometry.swift; sourceTree = SOURCE_ROOT; };
+		C437EFAB8CBF1A0E03586734 /* GreenScan/Core/ScanSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/ScanSummary.swift; sourceTree = SOURCE_ROOT; };
+		C4CE82A47294581899AE4B73 /* GreenScan/SavedScans/SavedMetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/SavedScans/SavedMetalRenderer.swift; sourceTree = SOURCE_ROOT; };
+		CCB0B0E2E5336A88ABC82520 /* GreenScan/Core/GridKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/GridKey.swift; sourceTree = SOURCE_ROOT; };
 		CE9908AC00763D1BE72F1F64 /* GreenScan/Core/TerrainProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/TerrainProcessor.swift; sourceTree = SOURCE_ROOT; };
+		D6B91320F5B59E2C9A6494FC /* GreenScan/Core/ScanHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/Core/ScanHistory.swift; sourceTree = SOURCE_ROOT; };
+		F5468345305755BA00EB201F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = GreenScan/Assets.xcassets; sourceTree = "<group>"; };
+		FC724302A5D74A2A92D73504 /* GreenScan/SavedScans/ScanHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenScan/SavedScans/ScanHistoryView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,24 +101,32 @@ C07E314009761B3FECDE662D = { isa = PBXFileReference; lastKnownFileType = sourcec
 /* Begin PBXGroup section */
 		64292B1C2B2E13EAD8788FC8 = {
 			isa = PBXGroup;
-			children = (C4CE82A47294581899AE4B73,
-29F9CC9E89776F28AF4B861F,
-AEFA7774EA872E2213330C63,
-355F20CF4633D2551D2CAA62,
-7ED85E779C3F04C9C26F8436,
-D6B91320F5B59E2C9A6494FC,
-C437EFAB8CBF1A0E03586734,
-72697448E8223B337D39258F,
-2C0BDEC35B33D215D1454B87,
-1887906A71915DE6BCF75BD9,
-FC724302A5D74A2A92D73504,
-79679144C5577DCF198EE1AD,
-
+			children = (
+				F5468345305755BA00EB201F /* Assets.xcassets */,
+				C4CE82A47294581899AE4B73 /* GreenScan/SavedScans/SavedMetalRenderer.swift */,
+				29F9CC9E89776F28AF4B861F /* GreenScan/Core/OrbitCamera.swift */,
+				AEFA7774EA872E2213330C63 /* GreenScan/Core/SavedScan.swift */,
+				355F20CF4633D2551D2CAA62 /* GreenScan/Core/ScanArchive.swift */,
+				7ED85E779C3F04C9C26F8436 /* GreenScan/Core/ScanArchiveError.swift */,
+				D6B91320F5B59E2C9A6494FC /* GreenScan/Core/ScanHistory.swift */,
+				C437EFAB8CBF1A0E03586734 /* GreenScan/Core/ScanSummary.swift */,
+				72697448E8223B337D39258F /* GreenScan/SavedScans/SavedModelCanvas.swift */,
+				2C0BDEC35B33D215D1454B87 /* GreenScan/SavedScans/SavedScanModel.swift */,
+				1887906A71915DE6BCF75BD9 /* GreenScan/SavedScans/SavedScanView.swift */,
+				FC724302A5D74A2A92D73504 /* GreenScan/SavedScans/ScanHistoryView.swift */,
+				79679144C5577DCF198EE1AD /* GreenScan/Views/CameraControls.swift */,
 				890A6C6AC91737902635B620 /* UITests/ScanUITests.swift */,
 				BE8957858FE77B865A3C5A06 /* GreenScan/Core/TerrainGeometry.swift */,
 				3A76CF8BC67FC8EF605A4AF5 /* GreenScan/Core/TerrainMap.swift */,
 				CE9908AC00763D1BE72F1F64 /* GreenScan/Core/TerrainProcessor.swift */,
-				CCB0B0E2E5336A88ABC82520,2F29213056A6A6B5B777DD71,A40AF70A9A9094BAE6CDC4CD,BC1DD90151C7D52C0238B167,451D589668FC0008CE20D02D,591A34BEFA485197FA8777BC,C07E314009761B3FECDE662D,7900BD042BA1D94BBFBEE2CC /* GreenScan/Core/TerrainTypes.swift */,
+				CCB0B0E2E5336A88ABC82520 /* GreenScan/Core/GridKey.swift */,
+				2F29213056A6A6B5B777DD71 /* GreenScan/Core/DepthSample.swift */,
+				A40AF70A9A9094BAE6CDC4CD /* GreenScan/Core/TerrainCell.swift */,
+				BC1DD90151C7D52C0238B167 /* GreenScan/Core/TerrainSnapshot.swift */,
+				451D589668FC0008CE20D02D /* GreenScan/Core/SurfacePoint.swift */,
+				591A34BEFA485197FA8777BC /* GreenScan/Core/SurfaceSegment.swift */,
+				C07E314009761B3FECDE662D /* GreenScan/Core/DisplayGeometry.swift */,
+				7900BD042BA1D94BBFBEE2CC /* GreenScan/Core/DisplaySettings.swift */,
 				6477BA6DB97BBCC77AE4575D /* GreenScan/GreenScanApp.swift */,
 				417A5A79135608E666588E3F /* GreenScan/Rendering/SurfaceRenderer.swift */,
 				9E3C92173CF73AED6C075CD6 /* GreenScan/Scanning/DepthSampler.swift */,
@@ -207,6 +215,7 @@ FC724302A5D74A2A92D73504,
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5468346305755BA00EB201F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,23 +233,30 @@ FC724302A5D74A2A92D73504,
 		BCE16DD0260827ECF338C787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (ECDBB5B02715319710BDC8C0,
-76E6B2506D682B5D4925EEA0,
-6293F2C3FD5BBA1695899B2D,
-0E7F79A176C18CF2D7DDB01E,
-304A7533DB6A0BC20A71F90A,
-ED6AED0D9922FABD6ED820CE,
-7CADD635581D182BC266FA3D,
-46CA999B309C4996F5F1ADE9,
-0F0B4AEF8A2831CC1BEF6691,
-84977EF43E1B9213959DA380,
-12A7363F878AA238833D5EAB,
-CF1DE68452D56A54E03C7B72,
-
+			files = (
+				ECDBB5B02715319710BDC8C0 /* GreenScan/SavedScans/SavedMetalRenderer.swift in Sources */,
+				76E6B2506D682B5D4925EEA0 /* GreenScan/Core/OrbitCamera.swift in Sources */,
+				6293F2C3FD5BBA1695899B2D /* GreenScan/Core/SavedScan.swift in Sources */,
+				0E7F79A176C18CF2D7DDB01E /* GreenScan/Core/ScanArchive.swift in Sources */,
+				304A7533DB6A0BC20A71F90A /* GreenScan/Core/ScanArchiveError.swift in Sources */,
+				ED6AED0D9922FABD6ED820CE /* GreenScan/Core/ScanHistory.swift in Sources */,
+				7CADD635581D182BC266FA3D /* GreenScan/Core/ScanSummary.swift in Sources */,
+				46CA999B309C4996F5F1ADE9 /* GreenScan/SavedScans/SavedModelCanvas.swift in Sources */,
+				0F0B4AEF8A2831CC1BEF6691 /* GreenScan/SavedScans/SavedScanModel.swift in Sources */,
+				84977EF43E1B9213959DA380 /* GreenScan/SavedScans/SavedScanView.swift in Sources */,
+				12A7363F878AA238833D5EAB /* GreenScan/SavedScans/ScanHistoryView.swift in Sources */,
+				CF1DE68452D56A54E03C7B72 /* GreenScan/Views/CameraControls.swift in Sources */,
 				72DD943B745760EF93E2D246 /* GreenScan/Core/TerrainGeometry.swift in Sources */,
 				8A9095FC9EF36A101013B49C /* GreenScan/Core/TerrainMap.swift in Sources */,
 				56E68117F8F50E8B0E1EC972 /* GreenScan/Core/TerrainProcessor.swift in Sources */,
-				6F7666C0AC6441266425560D,36EEA90C4B3F98824E532D0D,F57E1C8A1B73E0881DD82929,1AD8A914655912FC9C0F6F8E,FC16252FE2FA663B091BCB3F,8136DA3273735F3E4C120D06,00CD1D6D95DBF06358815942,313EF658F6D42BBC00786547 /* GreenScan/Core/TerrainTypes.swift in Sources */,
+				6F7666C0AC6441266425560D /* GreenScan/Core/GridKey.swift in Sources */,
+				36EEA90C4B3F98824E532D0D /* GreenScan/Core/DepthSample.swift in Sources */,
+				F57E1C8A1B73E0881DD82929 /* GreenScan/Core/TerrainCell.swift in Sources */,
+				1AD8A914655912FC9C0F6F8E /* GreenScan/Core/TerrainSnapshot.swift in Sources */,
+				FC16252FE2FA663B091BCB3F /* GreenScan/Core/SurfacePoint.swift in Sources */,
+				8136DA3273735F3E4C120D06 /* GreenScan/Core/SurfaceSegment.swift in Sources */,
+				00CD1D6D95DBF06358815942 /* GreenScan/Core/DisplayGeometry.swift in Sources */,
+				313EF658F6D42BBC00786547 /* GreenScan/Core/DisplaySettings.swift in Sources */,
 				AA154FED995F215C0709B72D /* GreenScan/GreenScanApp.swift in Sources */,
 				15EF7A5217DE5634569F0D75 /* GreenScan/Rendering/SurfaceRenderer.swift in Sources */,
 				DC7FEBABDE9D4CF7043ACDF6 /* GreenScan/Scanning/DepthSampler.swift in Sources */,
